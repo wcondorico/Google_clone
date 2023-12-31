@@ -1,0 +1,298 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("./assets/fondo.png");
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: -160px 0px;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+header{
+  background-color: transparent;
+  height: 9vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  width: 19vw;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 80%;
+  padding-left: 10px;
+  padding-right: 7px;
+}
+
+nav>div{
+  height: auto;
+}
+
+nav span{
+  font-size: 1.2rem;
+  color: white;
+}
+
+.circle img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+main{
+  background-color: transparent;
+  height: 83vh;
+}
+
+.container-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container-logo{
+  display: flex;
+  background-color: #1F1F1F;
+  border-radius: 20px;
+  width: 29%;
+  height: 34%;
+  justify-content: center;
+  margin-bottom: 2.5%;
+}
+
+.container-logo img{
+  width: 90%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.container-buscador>div{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 1%;
+}
+
+.container-buscador__input-search{
+  position: relative;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 36.5%;
+  height: 7.8%;
+  border-radius: 20px;
+  margin-bottom: 1.2%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.33);
+}
+
+
+.container-buscador__icon-search{
+  width: 7%;
+  position: absolute;
+  left: 3.7%;
+}
+
+.container-buscador__icon-mic{
+  position: absolute;
+  right: 9%;
+}
+
+.container-buscador__icon-cam{
+  position: absolute;
+  width: auto;
+  right: 3.2%;
+}
+
+.container-buscador__icon-mic img{
+ width: 80%;
+}
+
+.container-buscador__icon-cam img{
+  width: 20px;
+}
+
+.container-buscador__icon-search img{
+  width: 34%;
+}
+
+#buscar{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 0;
+  padding-left: 9.3%;
+  padding-right: 16%;
+  padding-top: 0.8%;
+  font-size: 1.58rem;
+  color: #5a5a5a;
+}
+
+#buscar::placeholder {
+  position: relative;
+  font-size: 1.5rem;
+}
+
+#buscar:focus {
+  outline: 0;
+}
+
+#buscar:focus::placeholder{
+  color: transparent;  
+}
+
+
+
+
+.container-atajos{
+  background-color: transparent;
+  width: 29%;
+  height: 40%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  }
+
+.container-atajos__item{
+  background-color: transparent;
+  display: flex;
+}
+
+.container-atajos__item a{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.container-atajos__logo{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-atajos{
+  background-color: rgb(242, 242, 242);
+  border-radius: 50%;
+  width: 45%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-atajos img{
+  width: 47%;
+}
+
+#youtube-logo{
+  width: 100%;
+}
+
+.container-atajos__title{
+  text-align: center;
+  color: rgb(251, 251, 251);
+  font-size: 1.3rem;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-weight: 400;
+  text-shadow: 0px 0.5px 1.5px rgba(43, 43, 43, 0.82);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: transparent;
+  height: 8vh;
+  padding: 0.5% 1.5%;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+.author p{
+  font-size: 1.3rem;
+}
+
+#p1{
+  color: rgb(100, 100, 100);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+#p2{
+  color: rgb(192, 192, 192);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.pen-logo img{
+  width: 13px;
+  height: 14px;
+}
+
+.circle-pen-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
+  width: 33px;
+  height: 33px;
+  background-color: black;
+  border-radius: 50%;  
+}
